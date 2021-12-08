@@ -1,7 +1,7 @@
 {
-  "name": "cuddly-happiness",
+  "name": "aluminum_rivet_life",
   "version": "1.0.0",
-  "description": "CMS style blogging site",
+  "description": "Blogging site for Airstream fans",
   "main": "server.js",
   "scripts": {
     "test": "jest",
@@ -9,21 +9,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oldgraybuzzard/cuddly-happiness.git"
+    "url": "git+https://github.com/oldgraybuzzard/aluminum_rivet_life.git"
   },
   "author": "Oldgraybuzzard",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oldgraybuzzard/cuddly-happiness/issues"
+    "url": "https://github.com/oldgraybuzzard/aluminum_rivet_life/issues"
   },
-  "homepage": "https://github.com/oldgraybuzzard/cuddly-happiness#readme",
+  "homepage": "https://github.com/oldgraybuzzard/aluminum_rivet_life#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "express-handlebars": "^6.0.2",
     "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.12.0-beta.1"
-  }
+    "sequelize": "^6.12.0-beta.1",
+    "session": "^0.1.0"
+  },
+  "keywords": []
 }
