@@ -1,1 +1,3 @@
-# cuddly-happiness
+# Tech Blog
+
+## CMS-style blog site
