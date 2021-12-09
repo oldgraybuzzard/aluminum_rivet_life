@@ -25,6 +25,7 @@ Node.JS, NPM, bcrypt, connect-session-sequelize, dotenv, express, express-handle
 [Markdown README Generator](https://github.com/oldgraybuzzard/aluminum_rivet_life.git)
 
 ## Usage 🏆
+### Screenshots:
 https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_login2.PNG
 https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_dashboard.PNG
 https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_newpost.PNG
