@@ -13,7 +13,8 @@ class Post extends Model {
         },
         attributes: [
           'id',
-          'title',
+          'subject',
+          'message',
           'created_at',
           [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
         ],
@@ -42,6 +43,10 @@ Post.init(
       autoIncrement: true
     },
     title: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    message: {
       type: DataTypes.STRING,
       allowNull: false
     },
