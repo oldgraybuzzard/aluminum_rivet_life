@@ -19,4 +19,5 @@ module.exports = {
 
     return word;
   }
+
 };

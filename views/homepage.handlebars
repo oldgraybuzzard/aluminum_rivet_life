@@ -1,7 +1,39 @@
 <ol class="post-list">
   {{#each posts as |post|}}
-  <li>
-    {{> post-info post }}
-  </li>
+  <div class="container">
+    <div class="row patio-header" style="background-color: #3498db">
+      <div class="col-9">
+        <h4 class="fw-bold">
+          {{ post.title }}
+        </h4>
+        
+      </div>
+      <div class="col-3">
+        <h6 class="fw-bold">
+          Posted by: {{ user.username}}({{ user.brn }}) on {{ format_date post.created_at }}
+        </h6>
+        
+      </div>
+    </div>
+    <div class="row patio-text" style="background-color: #ecf0f1">
+      <div>
+        <p>
+          {{ post.message }}
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+        <div class="col">
+          <a href="/post/{{id}}">{{comments.length}} {{format_plural "💬" comments.length}}</a>
+        </div>
+        <div class="col">
+           {{post.vote_count}} {{format_plural "❤️" post.vote_count}}
+        </div>  
+        </div>
+             
+      </div>
+
+    </div>
+  </div>
   {{/each}}
 </ol>
