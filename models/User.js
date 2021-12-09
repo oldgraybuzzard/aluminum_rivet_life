@@ -31,6 +31,14 @@ User.init(
         isEmail: true
       }
     },
+    brn: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      unique: true,
+      validate: {
+        len: [1,6]
+      }
+    },
     password: {
       type: DataTypes.STRING,
       allowNull: false,
