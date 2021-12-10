@@ -12,6 +12,7 @@ Live Riveted!
 
 ## Table of Contents
 * [Dependenciess](#dependencies)
+* [Links](#links)
 * [Usage](#usage)
 * [Contributors](#contributors)
 * [Features](#features)
@@ -24,15 +25,16 @@ To install dependencies, run these commands:
 Node.JS, NPM, bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session, handlebars, mysql2, sequelize, session
 ```
 
-## Github URL
-[Markdown README Generator](https://github.com/oldgraybuzzard/aluminum_rivet_life.git)
+## Links
+[Heroku Deployment](https://dashboard.heroku.com/apps/arcane-earth-71904)
+[Github Link](https://github.com/oldgraybuzzard/aluminum_rivet_life.git)
 
 ## Usage 🏆
 ### Screenshots:
-https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_login2.PNG
-https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_dashboard.PNG
-https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_newpost.PNG
-https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_comment.PNG
+[Login page](https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_login2.PNG)
+[Dashboard](https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_dashboard.PNG)
+[Creat a post](https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_newpost.PNG)
+[Comment on a post](https://github.com/oldgraybuzzard/aluminum_rivet_life/blob/main/readme_assets/ARL_comment.PNG)
 
 
 ## Contributors 😃
