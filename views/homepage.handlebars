@@ -2,13 +2,13 @@
   {{#each posts as |post|}}
   <div class="container">
     <div class="row patio-header" style="background-color: #3498db">
-      <div class="col-9">
+      <div class="col-8">
         <h4 class="fw-bold">
           {{ post.title }}
         </h4>
         
       </div>
-      <div class="col-3">
+      <div class="col-4">
         <h6 class="fw-bold">
           Posted by: {{ user.username}}({{ user.brn }}) on {{ format_date post.created_at }}
         </h6>
