@@ -26,7 +26,7 @@ Node.JS, NPM, bcrypt, connect-session-sequelize, dotenv, express, express-handle
 ```
 
 ## Links
-[Heroku Deployment](https://dashboard.heroku.com/apps/arcane-earth-71904)
+[Heroku Deployment](https://arcane-earth-71904.herokuapp.com/)
 [Github Link](https://github.com/oldgraybuzzard/aluminum_rivet_life.git)
 
 ## Usage 🏆
