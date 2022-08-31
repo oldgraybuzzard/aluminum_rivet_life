@@ -28,6 +28,15 @@ const hbs = exphbs.create({ helpers });
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
+//========Routes to different pages =========
+app.get('/terms', function (req, res) {
+  res.render('terms');
+});
+
+app.get('/privacy', function (req, res) {
+  res.render('privacy');
+});
+//========END Routes=========================
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
