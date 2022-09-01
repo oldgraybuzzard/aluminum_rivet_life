@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/oldgraybuzzard/aluminum_rivet_life#readme",
   "dependencies": {
+    "algoliasearch": "^4.14.2",
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.5",
     "dotenv": "^10.0.0",
@@ -25,6 +26,7 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "handlebars": "^4.7.7",
+    "instantsearch.js": "^4.45.0",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.4",
     "session": "^0.1.0"
