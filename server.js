@@ -28,6 +28,16 @@ const hbs = exphbs.create({ helpers });
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
+//===========Routes==================
+app.get('/terms', function (req, res) {
+  res.render('terms');
+});
+app.get('/privacy', function (req, res) {
+  res.render('privacy');
+});
+//===================================
+
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -35,5 +45,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('./controllers/'));
 
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
+  app.listen(PORT, () => console.log('Now listening on Port ' + PORT ));
 });
